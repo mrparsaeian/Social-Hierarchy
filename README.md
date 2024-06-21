@@ -38,7 +38,7 @@ The code for the automated system and data analysis can be found in the [src](sr
 
 ## Video Description
 
-For a detailed explanation of the experiment, watch the video below:
+This is 
 
 [![Experiment Description](https://img.youtube.com/vi/pyDrKtO2mn4/0.jpg)](https://www.youtube.com/watch?v=pyDrKtO2mn4)
 

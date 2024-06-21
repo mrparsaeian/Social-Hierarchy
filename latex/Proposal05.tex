@@ -65,22 +65,6 @@
 ]{geometry}
 
 \usepackage{fancyhdr}
-% \fancypagestyle{unicamp}{
-% \renewcommand{\headrule}{}
-% \renewcommand{\footrule}{}
-% \fancyhead{}
-% \fancyfoot{}
-% \fancyhead[L]{\input{unicamp_logo.tex}}
-% \fancyhead[C]{\sffamily%
-% {\bfseries\fontsize{15.5pt}{1em}\selectfont\uppercase{IPM - SCC}}\\
-% \fontsize{11.3pt}{1.2em}\selectfont\uppercase{Institute for Research}\\
-% \fontsize{11.3pt}{1.2em}\selectfont\uppercase{in Fundamental Sciences}\\
-% \uppercase{School of Cognitive Science}}
-% % \fancyfoot[C]{\sffamily\fontsize{9pt}{1em}\selectfont%
-% % Av. Albert Einstein, 400; 13083-852 Campinas, SP, Brasil\\
-% % Tel: +55 (19) 3521-3703; Fax: +55 (19) 3289-1395\\
-% % \url{http://www.fee.unicamp.br}}
-% }
 
 \pagestyle{plain}
 
@@ -102,15 +86,6 @@
 	plural={{\smaller #6}},
 	description={#4 (\emph{#5})},#1}}
 
-% \newacronym{RTFM}{RTFM}{read the freaking manual}
-% \newacronymx{AOL}{AOL}{acronym in another language}{acrônimo em outra língua}{AOLs}{acronyms in another language}{acrônimos em outra língua}
-
-
-% ! /////////////////////////////
-
-
-
-
 \title{}
 \author{}
 \date{}
@@ -122,10 +97,8 @@
     \null\vfill
     \begin{figure}[htp]
         \centering
-        % \includegraphics[width=3cm]{example}
         \includegraphics[width=0.4\textwidth]{figures/IPMLogo.png}
-        % \caption{Example figure}
-        % \label{fig:example}
+
     \end{figure}
 
     {\scshape\large Research Proposal\par}
@@ -159,67 +132,67 @@
 \onehalfspacing
 
 
-% Main text starts here.
-% \Cref{fig:example} is an example figure.
-% There is also \cref{tab:example} as another example.
-% And don't forget to \gls{RTFM}~\cite{oetiker_not_2015, latex_wikibook}.
-% And don't forget to \gls{RTFM}.
-
-% \begin{figure}[htp]
-%     \centering
-%     \includegraphics[width=3cm]{example}
-%     \caption{Example figure}
-%     \label{fig:example}
-% \end{figure}
-
-% \begin{table}[hbp]
-%     \centering
-%     \caption{Table description.}
-%     \label{tab:example}
-%     \begin{tabular}{lcc}
-%         \toprule
-%         Condition     & Frequency (\si{kHz}) & Resistance (\si{\ohm}) \\
-%         \midrule
-%         No controller & --                   & \num{0.8}              \\
-%         Open loop     & \num{120.1}          & \num{45.6}             \\
-%         Closed loop   & \num{119.3}          & \num{50.1}             \\
-%         \bottomrule
-%     \end{tabular}
-% \end{table}
 
 
 \maketitle
-% \thispagestyle{unicamp}
 
 
 
 
-\section*{Introduction}
+\section{Introduction}
 Social hierarchy is a complex trait that significantly influences emotion and cognition in both humans and other social species, affecting social organization, survival, reproductive success, and health within groups. Adapting behavior based on social status can be cost-effective and crucial for survival(\cite{vesseyDominanceControl1981}). Typically, social hierarchies are established through aggressive interactions, serving to manage resources and minimize energy expenditure. Once established, hierarchies reduce aggression by organizing priority access to resources. Behavioral paradigms for measuring social hierarchy in lab animals focus on agonistic interactions over scarce resources or territory defense(\cite{zhouAdvancesUnderstandingNeural2018}).
 
 Social hierarchies in rats can be influenced by various factors, including testosterone levels and access to food resources. Testosterone is known to increase aggression and dominance behaviors, while control over food resources can significantly affect social status. The influence of steroid hormones, especially testosterone in males, on aggression has been extensively studied across various species(\cite{hamiltonSocialNeuroendocrinologyStatus2015}). Experimental manipulation of androgenic signaling has shown that these hormones play a causative role in regulating dominance in both males and females. Testosterone is crucial for activating aggressive behavior in the short-term; it peaks during group formation, rises in dominant individuals after aggressive encounters, and can reinforce winner effects(\cite{fuxjagerSpeciesDifferencesWinner2011,oliveiraWhyWinnersKeep2009}).
 
-\section*{Background}
-A seminal research by O.H. Mowrer aimed to extend behavioral psychology to Marx’s economic theories. The "frustration-aggression" hypothesis was applied to Marx and Engels' analysis of class formation in "The Communist Manifesto," suggesting that Marx's materialist history inadvertently mirrored their psychological system(\cite{dollardFrustrationAggression1939}). The Mowrer and his colleagues  reinterpreted Marx’s theory of class conflict as originating from individual frustration with economic confinement. Mowrer not only helped theorize this dynamic but also sought to simulate and film its occurrence. In "An Experimentally Produced 'Social Problem' in Rats" (1939)(\cite{nationallibraryofmedicineExperimentallyProducedSocial2021}) and "Competition and Dominance Hierarchies in Rats" (1940)(\cite{paulofranciscoslompCompetitionDominanceHierarchies2011}), he used film to document social interactions and their psychological effects on individual rats. His films focused on the process of individuation, where hierarchies of behavior emerged in groups of rats through multiple experimental interventions, with each rat developing a distinct identity based on its relationship with the group. These films primarily examined the evolution of group dynamics.
+\section{Background}
+A seminal research by O.H. Mowrer aimed to extend behavioral psychology to Marx’s economic theories. The "frustration-aggression" hypothesis was applied to Marx and Engels' analysis of class formation in "The Communist Manifesto," suggesting that Marx's materialist history inadvertently mirrored their psychological system(\cite{dollardFrustrationAggression1939}). The Mowrer and his colleagues  reinterpreted Marx’s theory of class conflict as originating from individual frustration with economic confinement. 
+The novel competition test for food rewards has demonstrated stable dominance statuses in adult male rats, providing a robust model for studying the interaction between social hierarchy and stress responses(\cite{costaNovelCompetitionTest2021a})(\Cref{fig:modified_apparatus_feeder},\Cref{fig:modified_apparatus_homecage_reality}).
+% Mowrer not only helped theorize this dynamic but also sought to simulate and film its occurrence. In "An Experimentally Produced 'Social Problem' in Rats" (1939)(\cite{nationallibraryofmedicineExperimentallyProducedSocial2021}) and "Competition and Dominance Hierarchies in Rats" (1940)(\cite{paulofranciscoslompCompetitionDominanceHierarchies2011}), he used film to document social interactions and their psychological effects on individual rats. His films focused on the process of individuation, where hierarchies of behavior emerged in groups of rats through multiple experimental interventions, with each rat developing a distinct identity based on its relationship with the group. These films primarily examined the evolution of group dynamics.
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}
+        % Original image
+        \node[inner sep=0pt] (image) at (0,0) {\includegraphics[width=0.8\textwidth]{figures/Feeder.png}};
+    \end{tikzpicture}
+    \caption{Original Schematic illustration of feeder from \cite{costaNovelCompetitionTest2021a}.}
+    \label{fig:modified_apparatus_feeder}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}
+        % Original image
+        \node[inner sep=0pt] (image) at (0,0) {\includegraphics[width=0.8\textwidth]{figures/HomeCageInReality.png}};
+
+    \end{tikzpicture}
+    \caption{Original home cage from \cite{costaNovelCompetitionTest2021a}.}
+    \label{fig:modified_apparatus_homecage_reality}
+\end{figure}
+\subsection*{Dynamical Systems and Embedded Cognition in Social Behavior of Animals}
+
+Dynamical systems theory (DST) provides a framework for understanding complex, time-dependent systems through mathematical modeling. In the context of cognition, DST views cognitive processes as dynamic and interactive, continuously evolving over time rather than being static computations. This perspective contrasts with traditional symbolic approaches to cognition, emphasizing the importance of time-dependent interactions within the brain and between the brain, body, and environment(\cite{beerDynamicalSystemsPerspective1995}).
+
+\subsection*{Embedded Cognition}
+
+Embedded cognition is a theory that argues cognitive processes are deeply rooted in the interactions with the environment. This view holds that cognition is not only a result of internal neural processes but also a product of interactions with the physical and social environment. This approach highlights the significance of the situational context in which cognition occurs, suggesting that cognition is inherently tied to the environmental context(\cite{beerDynamicalApproachesCognitive2000}).
+
+\subsection*{Relation to Social Behavior in Animals}
+
+When applied to social behavior in animals, these theories suggest that social interactions and hierarchies are not merely the outcome of internal cognitive processes but are dynamically shaped by continuous interactions with the environment and other animals. In social species, such as rats, these interactions can include competition for resources, communication signals, and physical confrontations, all of which are influenced by the surrounding environment.
+
+In studying social behavior in animals, such as rats, these theories can be applied to understand how social hierarchies form and evolve. For example, the aggression and dominance behaviors seen in rats are not just internal responses but are dynamically influenced by their ongoing interactions with other rats and their environment. This includes the availability of resources, the presence of physical barriers, and the rats' previous experiences.
+
+Understanding social behavior through the lens of dynamical systems and embedded cognition can lead to more effective interventions and experimental designs. For instance, by manipulating the environmental context (e.g., introducing automated food dispensers that respond to specific rats), researchers can observe how these changes affect social hierarchies and individual behaviors over time. This approach offers a comprehensive framework for studying complex social systems in a more holistic manner.
 
 
-\section*{Research Type}
 
-This is an experimental study designed to investigate the behavioral and physiological consequences of induced changes in social hierarchies among dyads of rats.
 
-\section*{Research Goals}
+\section{Significance}
+This study will provide insights into the mechanisms through which hormonal and environmental factors influence social hierarchies and behavior. The findings will contribute to the understanding of social stress and hierarchy formation in animals.
+Understanding the behavioral and physiological impacts of social hierarchy changes in rats can provide insights into social dynamics and stress responses in other social species, including humans. This research could inform interventions for managing social stress and related disorders. This could facilitate organizational social support to be more effective for less privileged groups.  
 
-\begin{itemize}
-    \item To determine the dynamics and procedures of social hierarchy formation in rats.
-    \item To assess the impact of prioritized food resource access on subordinate rats.
-    \item To monitor behavioral and physiological changes in rats due to altered social hierarchies.
-\end{itemize}
-
-\section*{Significance}
-
-Understanding the behavioral and physiological impacts of social hierarchy changes in rats can provide insights into social dynamics and stress responses in other social species, including humans. This research could inform interventions for managing social stress and related disorders.
-
-\section*{Variables}
+\section{Experiment Design and Methodology}
+\subsection*{Variables}
 
 \subsection*{Independent Variable}
 \begin{itemize}
@@ -231,82 +204,38 @@ Understanding the behavioral and physiological impacts of social hierarchy chang
 \begin{itemize}
     \item Social Status
     \item Aggressiveness Level
-    \item Resource Access Level
     \item Corticosterone Level
     \item Testosterone Level
     \item Food Access Level
 \end{itemize}
+\subsection*{Research Type}
 
-\section*{Hypotheses}
+This is an experimental study designed to investigate the behavioral and physiological consequences of induced changes in social hierarchies among dyads of rats.
+
+\subsection*{Research Goals}
 
 \begin{itemize}
-    \item \textbf{H1}: Subordinate rats given exclusive access to additional food resources will show increased social status over time compared to control rats.
-    \item \textbf{H2}: Subordinate rats with additional food access will exhibit lower levels of aggressiveness compared to control rats.
-    \item \textbf{H3}: Resource access will be higher in subordinate rats given additional food resources.
+    \item To determine the dynamics and procedures of social hierarchy formation in rats.
+    \item To assess the impact of prioritized food resource access on subordinate rats.
+    \item To monitor behavioral and physiological changes in rats due to altered social hierarchies.
+\end{itemize}
+\subsection*{Hypotheses}
+
+\begin{itemize}
+    \item \textbf{H1}: Subordinate rats given prioritized access to additional food resources will show increased social status over time compared to control rats with the rates proportionate to the dosage of administrated testosterone.
+    \item \textbf{H2}: Subordinate rats with prioritized food access will exhibit lower levels of aggressiveness compared to control rats with the rate unproportionate to the dosage of administrated testosterone.
+    \item \textbf{H3}: Dominant rats with limited access to food will exhibit higher levels of aggressiveness.
     \item \textbf{H4}: Corticosterone levels will be lower in subordinate rats with additional food access due to reduced stress.
     \item \textbf{H5}: Testosterone levels will increase in subordinate rats with additional food access, correlating with improved social status.
     \item \textbf{H6}: Food access levels will be significantly higher in subordinate rats with the intervention.
 \end{itemize}
 
-\section*{Experimental Procedure}
 
-\subsection*{Baseline Phase}
-\begin{itemize}
-    \item Social hierarchy within each dyad of rats is determined using the modified Food Competition test.
-    \item The dynamics and procedure of hierarchy formation are recorded.
-\end{itemize}
-
-\subsection*{Intervention Phase}
-\begin{itemize}
-    \item An automated system is activated.
-    \item Subordinate rats are given exclusive access to additional food resources through the automated system.
-    \item Subordinate rats receive testosterone injections (0.1 mg/kg body weight up to 1 mg/kg body weight every 5 days). .
-    \item Interactions between the rats are monitored.
-\end{itemize}
-
-\subsection*{Monitoring and Data Collection}
-\begin{itemize}
-    \item Behavioral observations focus on the frequency and duration of interactions with the sliding door and pellet dispenser.
-    \item Physiological measures such as body weight and corticosterone levels are periodically assessed.
-\end{itemize}
-
-\section*{Measurement of Variables}
-
-\begin{itemize}
-    \item \textbf{Social Status}: Measured by the frequency and outcomes of competitive interactions.
-    \item \textbf{Aggressiveness Level}: Assessed using standardized behavioral scoring during interactions.
-    \item \textbf{Resource Access Level}: Monitored by the number of times a rat accesses the food dispenser.
-    \item \textbf{Corticosterone Level}: Measured through blood samples at regular intervals.
-    \item \textbf{Testosterone Level}: Measured through blood samples at regular intervals.
-    \item \textbf{Food Access Level}: Tracked by automated system logs of food dispenser use.
-\end{itemize}
-
-\section*{Methodology}
 \subsection*{Participants}
-40 adult male Sprague-Dawley rats, housed in groups of 2 (dyads). Rats will be distributed to dyads consisting of two rats that will be matched for their body weight and anxiety level. The anxiety level will be defined by the time spent in the open arms of the Elevated Plus Maze (EPM)(\cite{herreroIndividualDifferencesAnxiety2006,timmerEvidenceRoleOxytocin2011}).
+40 adult male Sprague-Dawley rats, housed in groups of 2 (dyads). Rats in each dyad will be matched for their body weight and anxiety level. The anxiety level will be defined by the time spent in the open arms of the Elevated Plus Maze (EPM)(\cite{herreroIndividualDifferencesAnxiety2006,timmerEvidenceRoleOxytocin2011}).
 
-\subsection*{Interventions}
-\begin{itemize}
-    \item \textbf{Testosterone Administration}: Subordinate rats will receive testosterone injections (1 mg/kg body weight every 5 days).
-    \item \textbf{Food Access Alteration}: Food access will be restricted for certain individuals within each dyad to create competition.
-\end{itemize}
 
-\subsection*{Measurements}
-\begin{itemize}
-    \item \textbf{Social Hierarchy}: Determined using the modified Food Competition test.
-    \item \textbf{Behavioral Analysis}: Observations of aggressive and submissive behaviors.
-    \item \textbf{Physiological Metrics}: Corticosterone levels, body weight, immune function.
-    \item \textbf{Cognitive Function}: Performance in maze tests and problem-solving tasks.
-\end{itemize}
 
-\subsection*{Procedure}
-\begin{itemize}
-    \item Establish baseline hierarchies using the modified Food Competition test.
-    \item Apply testosterone administration and food access alterations.
-    \item Monitor and record behavioral and physiological responses over 12 weeks.
-\end{itemize}
-
-\section*{Modified Food Competition Apparatus}
 
 \begin{figure}[h]
     \centering
@@ -319,41 +248,9 @@ Understanding the behavioral and physiological impacts of social hierarchy chang
 \end{figure}
 
 
-\begin{figure}[h]
-    \centering
-    \begin{tikzpicture}
-        % Original image
-        \node[inner sep=0pt] (image) at (0,0) {\includegraphics[width=0.8\textwidth]{figures/Feeder.png}};
-    \end{tikzpicture}
-    \caption{Schematic illustration of the transparent lid and feeder in the modified Food Competition apparatus with modifications.}
-    \label{fig:modified_apparatus_feeder}
-\end{figure}
-\begin{figure}[h]
-    \centering
-    \begin{tikzpicture}
-        % Original image
-        \node[inner sep=0pt] (image) at (0,0) {\includegraphics[width=0.8\textwidth]{figures/HomeCageInReality.png}};
+\subsection*{Modified Food Competition Apparatus }
 
-    \end{tikzpicture}
-    \caption{Schematic illustration of the transparent lid and feeder in the modified Food Competition apparatus with modifications.}
-    \label{fig:modified_apparatus_homecage_reality}
-\end{figure}
-
-\subsection*{Description of Modifications}
-
-1. \textbf{Automatic Sliding Door}:
-\begin{itemize}
-    \item A motorized mechanism is installed to automate the sliding door.
-    \item An RFID receiver is attached to recognize specific rats and control the door's opening.
-\end{itemize}
-
-2. \textbf{Automatic Pellet Release Mechanism}:
-\begin{itemize}
-    \item The pellet release mechanism is connected to a motorized system.
-    \item An RFID receiver is integrated to control pellet release based on the rat's identification.
-\end{itemize}
-\section*{Procedure}
-
+A new version on home cage based on \cite{costaNovelCompetitionTest2021a}(\Cref{fig:modified_apparatus_feeder}) with the following modifications will be developed:
 \subsection*{Automated Sliding Door and Pellet Dispenser System}
 
 To study the behavioral and physiological consequences of induced changes in social hierarchies, we will implement an automated system to control access to food resources based on individual rat identification using RFID tags\cite{habedankMouseWhereArt2020}. This system consists of an automatic sliding door and a pellet dispenser, both responsive to RFID tags to ensure only specific rats can access the resources.
@@ -379,89 +276,42 @@ To study the behavioral and physiological consequences of induced changes in soc
     \item The dispenser remains inactive when the RFID tag of the dominant rat is detected, preventing access to additional food resources.
 \end{itemize}
 
-\subsubsection*{Experimental Procedure}
+
+\subsection*{Measurement of Variables}
+
 \begin{itemize}
-    \item \textbf{Baseline Phase}: Initially, the social hierarchy within each dyads of rats is determined using the modified Food Competition test. The dynamics and procesure of hierarchy formation will be recorded
-    \item \textbf{Intervention Phase}: The automated system is activated, and the interactions between the rats are monitored. Subordinate rats are given exclusive access to additional food resources through the automated system.
-    \item \textbf{Monitoring and Data Collection}: Behavioral observations are recorded, focusing on the frequency and duration of interactions with the sliding door and pellet dispenser. Physiological measures such as body weight and corticosterone levels are periodically assessed.
+    \item \textbf{Social Status}: Measured by the frequency and outcomes of competitive interactions using the modified Food Competition test and video annotations.
+    \item \textbf{Aggressiveness Level}: Assessed using standardized behavioral scoring during interactions using video annotations.
+    \item \textbf{Corticosterone Level}: Measured through blood samples at regular intervals.
+    \item \textbf{Testosterone Level}: Measured through blood samples at regular intervals.
+    \item \textbf{Food Access Level}: Tracked by automated system logs of food dispenser and video annotation.
 \end{itemize}
-\section*{Video annotation}
+
+\subsection*{Video annotation}
 Bonsai(\cite{lopesBonsaiEventbasedFramework2015}) and Python Video Annotator(\cite{ribeiroPythonvideoannotator}), both open-source computer vision software available online, will be used for behavioral quantification. Initially, Bonsai digitally assigned behaviors and created timestamps for each event's start and end. These timestamps will be then curated frame-by-frame using Python Video Annotator, which allows precise subsecond resolution adjustments. Additionally, Python Video Annotator will enable post hoc categorization of exploration behaviors (anticipatory or resource-present) and pushing behaviors (successful or unsuccessful), which can only be identified after the pushing bouts are completed, making online video analysis insufficient for this purpose.
-\subsubsection*{Data Analysis}
+
+
+\section{Experimental Procedure}
 \begin{itemize}
-    \item The data collected from the automated system is analyzed to determine changes in social hierarchy dynamics, food access patterns, and physiological responses.
-    \item Statistical analyses are performed to compare the behavior and physiological measures between the subordinate and dominant rats.
+    \item \textbf{Baseline Phase}: Initially, the social hierarchy within each dyads of rats is determined using the modified Food Competition test. The dynamics and procedure of hierarchy formation will be recorded
+    \item \textbf{Intervention Phase}: The automated system is activated, and the interactions between the rats are monitored. Subordinate rats are given prioritized access to additional food resources through the automated system.
+    \item Subordinate rats receive varied dosage of testosterone injections (0.1 mg/kg body weight up to 1 mg/kg body weight every 5 days)(\cite{albertTestosteroneRemovalRats1986,wilsonSocialDominanceCastrate1971}).
+    \item \textbf{Monitoring and Data Collection}: Behavioral observations are recorded for 12 weeks, focusing on the frequency and duration of interactions with the sliding door and pellet dispenser. Social hierarchy, agonistic behavior and food consumption will be recorded and measured using video annotations. Physiological measures such as body weight and corticosterone levels are periodically assessed.
 \end{itemize}
 
-By implementing this automated system, we ensure precise control over food resource allocation, allowing us to investigate the effects of altered food access on social hierarchy and related behavioral and physiological outcomes.
 
-
-
-\section*{Computational Cognitive Model}
-\subsection*{State Variables}
-\begin{itemize}
-    \item \( S_i(t) \): Social status of rat \( i \) at time \( t \)
-    \item \( A_i(t) \): Aggressiveness level of rat \( i \) at time \( t \)
-    \item \( R_i(t) \): Resource access level of rat \( i \) at time \( t \)
-    \item \( C_i(t) \): Corticosterone level of rat \( i \) at time \( t \)
-    \item \( T_i(t) \): Testosterone level of rat \( i \) at time \( t \)
-    \item \( F_i(t) \): Food access level of rat \( i \) at time \( t \)
-\end{itemize}
-
-\subsection*{Differential Equations}
-\begin{align*}
-    \frac{dS_i(t)}{dt} & = \beta A_i(t) + \xi E_i(t) - \eta D_i(t) - \epsilon (S_i(t) - \bar{S}(t)) + \phi T_i(t) + \lambda F_i(t)  \\
-    \frac{dA_i(t)}{dt} & = \gamma C_i(t) + \phi T_i(t) - \epsilon (A_i(t) - \bar{A}(t)) + D \frac{\partial^2 A_i(t)}{\partial x^2}  \\
-    \frac{dR_i(t)}{dt} & = \alpha S_i(t) - \epsilon (R_i(t) - \bar{R}(t)) + D \frac{\partial^2 R_i(t)}{\partial x^2}                \\
-    \frac{dC_i(t)}{dt} & = \frac{1}{1 + \exp(-\theta (R_i(t) - S_i(t)))} - \delta C_i(t) + D \frac{\partial^2 C_i(t)}{\partial x^2} \\
-    \frac{dT_i(t)}{dt} & = \text{Testosterone injection rate} - \delta T_i(t) + D \frac{\partial^2 T_i(t)}{\partial x^2}            \\
-    \frac{dF_i(t)}{dt} & = \text{Rate of food access} - \delta F_i(t) + D \frac{\partial^2 F_i(t)}{\partial x^2}
-\end{align*}
-
-\section*{Expected Outcomes}
+\section{Expected Outcomes}
 \begin{enumerate}
     \item Testosterone administration and food access alterations will lead to significant shifts in social hierarchy.
-    \item Combined interventions will result in increased aggression, altered stress responses, and changes in cognitive performance.
+    \item Combined interventions will result in increased aggression, altered stress responses, and changes in cognitive performance in experiment group but not in control group
     \item The dynamical systems model will accurately predict the effects of these interventions on social hierarchy dynamics.
 \end{enumerate}
 
-\section*{Significance}
-This study will provide insights into the mechanisms through which hormonal and environmental factors influence social hierarchies and behavior. The findings will contribute to the understanding of social stress and hierarchy formation in animals, with potential implications for human social dynamics.
-%  ! #############################
-
-
-
 \section{Schedule of Activities}
 
-The proposed schedule of activities for the project is presented in the Gantt chart in \cref{fig:gantt}.
+The proposed schedule of activities for the project is presented in the Gantt chart in table below.
 
-% \begin{figure}[thp]
-%     \centering
-%     \begin{ganttchart}[
-%             hgrid=true,
-%             vgrid=true,
-%             canvas/.append style={draw=none},
-%             title/.append style={draw=none},
-%             title label font=\small,
-%             bar label font=\small,
-%             y unit title=5mm,
-%             y unit chart=6mm,
-%             x unit=10mm,
-%         ]{1}{8}
-%         \gantttitle{2024}{4}
-%         \gantttitle{2025}{4}\\
-%         \gantttitlelist{1,...,8}{1}\\
-%         \ganttbar{1.\ Literature Review}{1}{1}\\
-%         \ganttbar{2.\ Tuning Design}{2}{3}\\
-%         \ganttbar{3.\ Developing the Home Cage, SOftware and hardware}{2}{3}\\
-%         \ganttbar{4.\ Experiment and Data Gathering}{3}{6}\\
-%         \ganttbar{5.\ Data Analysing}{5}{8}\\
-%         \ganttbar{6.\ Writing Paper}{6}{8}\\
-%         \ganttbar{7.\ Submitting Paper}{7}{8}
-%     \end{ganttchart}
-%     \caption{Schedule of activities in trimesters.}
-%     \label{fig:gantt}
-% \end{figure}
+
 \newpage
 
 \begin{landscape}
@@ -499,79 +349,25 @@ The proposed schedule of activities for the project is presented in the Gantt ch
                 \ganttbar[bar/.append style={fill=cyan}]{Submitting Paper}{2025-05-15}{2025-09-28}
             \end{ganttchart}
         \end{center}
-        \label{fig:gantt}
+        \label{fig:gantt_table}
 
     \end{figure}
 \end{landscape}
 \newpage
 
-% \section*{Dynamical Systems Model for Social Hierarchy Dynamics}
 
-% \subsection*{State Variables}
-% \begin{align*}
-%     S_i(t) & : \text{Social status of rat } i \text{ at time } t                 \\
-%     A_i(t) & : \text{Aggressiveness level of rat } i \text{ at time } t          \\
-%     R_i(t) & : \text{Resource access level of rat } i \text{ at time } t         \\
-%     C_i(t) & : \text{Corticosterone level (stress) of rat } i \text{ at time } t
-% \end{align*}
 
-% \subsection*{Parameters}
-% \begin{align*}
-%     \alpha   & : \text{Influence of social status on resource access} \\
-%     \beta    & : \text{Influence of aggressiveness on social status}  \\
-%     \gamma   & : \text{Influence of stress on aggressiveness}         \\
-%     \delta   & : \text{Recovery rate of stress}                       \\
-%     \epsilon & : \text{Environmental factor impact}
-% \end{align*}
+\section{Data Analysis}
+The data collected from the automated system is analyzed to determine changes in social hierarchy dynamics, food access patterns, and physiological responses.
+Statistical analyses are performed to compare the behavior and physiological measures between the subordinate and dominant rats in experiment and control groups.
 
-% \subsection*{Differential Equations}
 
-% \text{Social Status Dynamics:}
-% \begin{equation}
-%     \frac{dS_i(t)}{dt} = \beta A_i(t) - \epsilon (S_i(t) - \bar{S}(t))
-% \end{equation}
-% \text{where } $\bar{S}(t)$ \text{ is the mean social status of the group.}
 
-% \text{Aggressiveness Dynamics:}
-% \begin{equation}
-%     \frac{dA_i(t)}{dt} = \gamma C_i(t) - \epsilon (A_i(t) - \bar{A}(t))
-% \end{equation}
-% \text{where } $\bar{A}(t)$ \text{ is the mean aggressiveness of the group.}
 
-% \text{Resource Access Dynamics:}
-% \begin{equation}
-%     \frac{dR_i(t)}{dt} = \alpha S_i(t) - \epsilon (R_i(t) - \bar{R}(t))
-% \end{equation}
-% \text{where } $\bar{R}(t)$ \text{ is the mean resource access level of the group.}
 
-% \text{Stress Dynamics:}
-% \begin{equation}
-%     \frac{dC_i(t)}{dt} = \frac{1}{1 + \exp(-\theta (R_i(t) - S_i(t)))} - \delta C_i(t)
-% \end{equation}
-% \text{where } $\theta$ \text{ is a parameter determining the sensitivity of stress to the difference between resource access and social status.}
+\subsection*{Data Analysis using Repeated Measures ANOVA}
 
-% \subsection*{State-Space Representation}
-% \text{Define the state vector } $\mathbf{x}(t)$ \text{ and input vector } $\mathbf{u}(t)$:
-% \begin{equation}
-%     \mathbf{x}(t) = \begin{bmatrix} S_i(t) \\ A_i(t) \\ R_i(t) \\ C_i(t) \end{bmatrix}, \quad \mathbf{u}(t) = \epsilon
-% \end{equation}
-% \text{The state-space model is:}
-% \begin{equation}
-%     \frac{d\mathbf{x}(t)}{dt} = \mathbf{A} \mathbf{x}(t) + \mathbf{B} \mathbf{u}(t)
-% \end{equation}
-% \text{where:}
-% \begin{equation}
-%     \mathbf{A} = \begin{bmatrix}
-%         -\epsilon & \beta     & 0                                                                                                   & 0       \\
-%         0         & -\epsilon & 0                                                                                                   & \gamma  \\
-%         \alpha    & 0         & -\epsilon                                                                                           & 0       \\
-%         0         & 0         & \theta (1 - S_i(t)) \frac{\exp(-\theta (R_i(t) - S_i(t)))}{(1 + \exp(-\theta (R_i(t) - S_i(t))))^2} & -\delta
-%     \end{bmatrix}, \quad \mathbf{B} = \begin{bmatrix} 1 \\ 1 \\ 1 \\ 1 \end{bmatrix}
-% \end{equation}
-
-\section*{Data Analysis using Repeated Measures ANOVA}
-
-In this section, we describe the process of analyzing changes over time in the experimental data using Repeated Measures ANOVA. This statistical method is suitable for comparing the means of three or more groups where the same subjects are used in each group, making it ideal for analyzing longitudinal data from the same group of rats across different time points.
+In this section, we describe the process of analyzing changes over time in the experimental data using Repeated Measures ANOVA(\cite{parkCorrectUseRepeated2009}). This statistical method is suitable for comparing the means of three or more groups where the same subjects are used in each group, making it ideal for analyzing longitudinal data from the same group of rats across different time points(\cite{bauerAnalyzingRepeatedMeasures2013a,hershbergerModelingIntraindividualVariability2013a}).
 
 \subsection*{Steps for Data Analysis}
 
@@ -654,6 +450,28 @@ In this section, we describe the process of analyzing changes over time in the e
         plt.show()
     
 \end{lstlisting}
+\subsection*{Dynamic Computational Model}
+Based on the hypotheses a model of interactions between variables in regard to time is proposed.  
+\subsection*{State Variables}
+\begin{itemize}
+    \item \( S_i(t) \): Social status of rat \( i \) at time \( t \)
+    \item \( A_i(t) \): Aggressiveness level of rat \( i \) at time \( t \)
+    \item \( R_i(t) \): Resource access level of rat \( i \) at time \( t \)
+    \item \( C_i(t) \): Corticosterone level of rat \( i \) at time \( t \)
+    \item \( T_i(t) \): Testosterone level of rat \( i \) at time \( t \)
+    \item \( F_i(t) \): Food access level of rat \( i \) at time \( t \)
+\end{itemize}
+
+\subsection*{Differential Equations}
+\begin{align*}
+    \frac{dS_i(t)}{dt} & = \beta A_i(t) + \xi E_i(t) - \eta D_i(t) - \epsilon (S_i(t) - \bar{S}(t)) + \phi T_i(t) + \lambda F_i(t)  \\
+    \frac{dA_i(t)}{dt} & = \gamma C_i(t) + \phi T_i(t) - \epsilon (A_i(t) - \bar{A}(t)) + D \frac{\partial^2 A_i(t)}{\partial x^2}  \\
+    \frac{dR_i(t)}{dt} & = \alpha S_i(t) - \epsilon (R_i(t) - \bar{R}(t)) + D \frac{\partial^2 R_i(t)}{\partial x^2}                \\
+    \frac{dC_i(t)}{dt} & = \frac{1}{1 + \exp(-\theta (R_i(t) - S_i(t)))} - \delta C_i(t) + D \frac{\partial^2 C_i(t)}{\partial x^2} \\
+    \frac{dT_i(t)}{dt} & = \text{Testosterone injection rate} - \delta T_i(t) + D \frac{\partial^2 T_i(t)}{\partial x^2}            \\
+    \frac{dF_i(t)}{dt} & = \text{Rate of food access} - \delta F_i(t) + D \frac{\partial^2 F_i(t)}{\partial x^2}
+\end{align*}
+
 
 \section*{Model Selection and Fitting}
 
